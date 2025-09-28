@@ -19,16 +19,3 @@ Clone o repositório:
 ```bash
 git clone https://github.com/brunoalvesvidal/catalogo-celulares-api.git
 cd catalogo-celulares-api
-
-
-## Endpoints principais
-
-GET / → Rota inicial (saudação)
-
-GET /celulares → Lista todos os celulares
-
-POST /celulares → Adiciona um novo celular
-
-PUT /celulares/{id} → Atualiza um celular
-
-DELETE /celulares/{id} → Remove um celular
